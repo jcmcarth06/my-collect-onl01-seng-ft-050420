@@ -4,4 +4,4 @@ def my_collect(array)
     my_collect_array do |name|
       name.split(" ").first
   end
-  
+end
