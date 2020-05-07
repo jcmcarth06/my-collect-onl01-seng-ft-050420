@@ -1,9 +1,10 @@
 def my_collect(array)
   index = 0
+  new array = []
   while index < array.length
-    my_collect_array do |student|
+        new_array << yield(array[index])
       name.split(" ").first
     index += 1
   end
-  array
+  new_array
 end
