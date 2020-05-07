@@ -5,4 +5,3 @@ def my_collect(array)
       name.split(" ").first
   end
   
-
